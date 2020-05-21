@@ -1,0 +1,29 @@
+.level-list, .component-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.level-list > li:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.component-list > li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.level-list--sublevel > li {
+    margin-left: 16px;
+}
+
+.level {
+    background: red;
+    border: 1px solid black;
+    padding: 16px;
+}
+
+.level-component {
+    background: yellow;
+    border: 1px dotted black;
+    padding: 8px;
+}
